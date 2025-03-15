@@ -1,0 +1,16 @@
+Usage: ./pokemon_analysis.sh <file_name> [options]
+Options:
+  -h, --help          Display this help message.
+  -i, --info          Display the highest adjusted and raw usage.
+  -s, --sort <col>    Sort the data by the specified column.
+    name              Sort by Pokemon name.
+    usage             Sort by Adjusted Usage.
+    raw               Sort by Raw Usage.
+    hp                Sort by HP.
+    atk               Sort by Attack.
+    def               Sort by Defense.
+    spatk             Sort by Special Attack.
+    spdef             Sort by Special Defense.
+    speed             Sort by Speed.
+  -g, --grep <name>   Search for a specific Pokémon sorted by usage.
+  -f, --filter <type> Filter by type of Pokémon sorted by usage.
